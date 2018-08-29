@@ -223,7 +223,7 @@ slave:
 metrics:
   enabled: false
   image:
-    registry: docker.io
+    registry: 192.168.1.100:5000
     repository: prom/mysqld-exporter
     tag: v0.10.0
     pullPolicy: IfNotPresent
